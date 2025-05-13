@@ -17,7 +17,7 @@ public class Arrow : MonoBehaviour
         if(other.tag == "DragonNightMare")
         {
             transform.parent = other.transform;
-            other.GetComponent<NightMare>().TakeDamage(damageAmount);
+            //other.GetComponent<NightMare>().TakeDamage(damageAmount);
         }
     }
 }
